@@ -1,0 +1,119 @@
+.navbar{
+  height: 141px;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar-menu-left{
+  margin-top: 50px;
+}
+
+.navbar-menu-logo{
+  height: 70px;
+  width: 300px; 
+}
+
+
+.navbar-menu-left-bottom{
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.navbar-list-title{
+  font-size: 16px;
+  color: #000;
+    text-decoration: none;
+    
+}
+
+.navbar-list-title:hover{
+  color: #F16D70;
+  transition: all 0.3s;
+}
+
+
+
+.navbar-lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-lists li{
+  margin-left: 30px;
+}
+
+.navbar-list{
+  list-style: none;
+}
+
+
+.navbar-menu-center-items{
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-left: -200px;
+}
+
+.navbar-menu-center-item{
+    margin-left: 5px;
+}
+
+.catalog-btn img:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  transition: all 0.2s;
+}
+
+.search-box, input{
+  height: 40px;
+  width: 674px;
+  background-color: transparent;
+ 
+ 
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: -2px;
+}
+
+.search-box input {
+ border: 1px solid #e9e9e9;
+ font-family: 'Wix Madefor Display', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.search-btn img:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  transition: all 0.2s;
+}
+
+.navbar-menu-right{
+  margin-bottom: 18px;
+
+
+}
+
+.navbar-menu-right ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fav-icon img{
+  margin-right: 20px;
+}
+
+.fav-icon img:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  transition: all 0.2s;
+}
+
+
+
